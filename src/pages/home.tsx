@@ -216,7 +216,7 @@ export default function HomePage({ onNavigate, onViewDetails }: HomePageProps) {
                 <span className="text-blue-300 text-sm font-semibold uppercase tracking-widest">Promoção Especial</span>
                 <h2 id="promo-title" className="text-white font-black text-4xl sm:text-5xl mt-2 mb-4 leading-tight">
                   Até <span className="text-blue-300">30% OFF</span><br />
-                  em Áudio Premium
+                  em áudio premium
                 </h2>
                 <p className="text-blue-200/80 text-lg max-w-md">
                   Aproveite os melhores fones e caixas de som com descontos exclusivos. Por tempo limitado!
