@@ -23,7 +23,7 @@ export default function HomePage({ onNavigate, onViewDetails }: HomePageProps) {
         <div
           className="absolute inset-0 opacity-25"
           style={{
-            backgroundImage: `url(https://static.lumi.new/7b/7be9e4a480d152c2936d1b82df2149b6.png)`,
+            backgroundImage: `url(/gestaodeprojetos/products/fundodetela2.png)`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -50,7 +50,7 @@ export default function HomePage({ onNavigate, onViewDetails }: HomePageProps) {
             </h1>
 
             <p className="text-blue-200/80 text-xl leading-relaxed mb-10 max-w-xl">
-              Descubra os melhores produtos de tecnologia com design elegante, qualidade superior e os melhores precos do mercado.
+              Descubra os melhores produtos de tecnologia com design elegante, qualidade superior e os melhores preços do mercado.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -77,7 +77,7 @@ export default function HomePage({ onNavigate, onViewDetails }: HomePageProps) {
               {[
                 { value: "100+", label: "Produtos" },
                 { value: "5k+", label: "Clientes" },
-                { value: "4.9", label: "Avaliacao" },
+                { value: "4.9", label: "Avaliação" },
               ].map((stat) => (
                 <div key={stat.label}>
                   <p className="text-white font-black text-3xl">{stat.value}</p>
@@ -98,8 +98,8 @@ export default function HomePage({ onNavigate, onViewDetails }: HomePageProps) {
                 <Zap size={20} className="text-white" fill="currentColor" />
               </div>
               <div>
-                <p id="special-offers-title" className="text-white font-black text-lg">Ofertas Especiais - Ate 30% OFF!</p>
-                <p className="text-blue-200 text-sm">Valido por tempo limitado. Aproveite agora!</p>
+                <p id="special-offers-title" className="text-white font-black text-lg">Ofertas Especiais - Até 30% OFF!</p>
+                <p className="text-blue-200 text-sm">Válido por tempo limitado. Aproveite agora!</p>
               </div>
             </div>
             <button
@@ -119,7 +119,7 @@ export default function HomePage({ onNavigate, onViewDetails }: HomePageProps) {
           <h2 id="features-title" className="sr-only">Nossos Diferenciais</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {[
-              { icon: Truck, title: "Entrega Rapida", desc: "Entrega em ate 48h para todo o Brasil com rastreamento em tempo real" },
+              { icon: Truck, title: "Entrega Rápida", desc: "Entrega em até 48h para todo o Brasil com rastreamento em tempo real" },
               { icon: Shield, title: "Garantia Total", desc: "Todos os produtos com garantia de 12 meses e suporte especializado" },
               { icon: Headphones, title: "Suporte 24/7", desc: "Equipe de especialistas prontos para ajudar a qualquer hora" },
             ].map(({ icon: Icon, title, desc }) => (
@@ -146,7 +146,7 @@ export default function HomePage({ onNavigate, onViewDetails }: HomePageProps) {
                 <Tag size={18} className="text-blue-400" aria-hidden="true" />
                 <span className="text-blue-400 text-sm font-semibold uppercase tracking-wider">Ofertas Especiais</span>
               </div>
-              <h2 id="deals-title" className="text-white font-black text-3xl">Melhores Promocoes</h2>
+              <h2 id="deals-title" className="text-white font-black text-3xl">Melhores Promoções</h2>
             </div>
             <button
               onClick={() => onNavigate("offers")}
@@ -203,7 +203,7 @@ export default function HomePage({ onNavigate, onViewDetails }: HomePageProps) {
             <div
               className="absolute inset-0 opacity-20"
               style={{
-                backgroundImage: `url(https://static.lumi.new/16/16566f2ee9cedb0a7dc3ac8ee5547b49.png)`,
+                backgroundImage: `url(/gestaodeprojetos/products/promocao.png)`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
@@ -213,10 +213,10 @@ export default function HomePage({ onNavigate, onViewDetails }: HomePageProps) {
 
             <div className="relative px-8 sm:px-12 py-12 sm:py-16 flex flex-col sm:flex-row items-center justify-between gap-8">
               <div>
-                <span className="text-blue-300 text-sm font-semibold uppercase tracking-widest">Promocao Especial</span>
+                <span className="text-blue-300 text-sm font-semibold uppercase tracking-widest">Promoção Especial</span>
                 <h2 id="promo-title" className="text-white font-black text-4xl sm:text-5xl mt-2 mb-4 leading-tight">
-                  Ate <span className="text-blue-300">30% OFF</span><br />
-                  em Audio Premium
+                  Até <span className="text-blue-300">30% OFF</span><br />
+                  em Áudio Premium
                 </h2>
                 <p className="text-blue-200/80 text-lg max-w-md">
                   Aproveite os melhores fones e caixas de som com descontos exclusivos. Por tempo limitado!

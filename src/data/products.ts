@@ -104,7 +104,7 @@ export const products: Product[] = [
     badge: "Oferta",
     inStock: true,
     reviews: [
-      { id: "r10", author: "Larissa M.", rating: 5, comment: "Encaixe perfeito e som incrivel para o preco.", date: "2026-05-14", avatar: "L" },
+      { id: "r10", author: "Larissa M.", rating: 5, comment: "Encaixe perfeito e som incrivel para o preço.", date: "2026-05-14", avatar: "L" },
       { id: "r11", author: "Thiago P.", rating: 4, comment: "Qualidade premium. ANC funciona muito bem.", date: "2026-05-06", avatar: "T" },
       { id: "r12", author: "Patricia N.", rating: 5, comment: "Melhor earbuds que ja tive. Som muito equilibrado.", date: "2026-05-07", avatar: "P" },
     ]

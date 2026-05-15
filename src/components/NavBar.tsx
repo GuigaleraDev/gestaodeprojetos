@@ -14,7 +14,7 @@ export default function Navbar({ currentPage, onNavigate, searchQuery, onSearchC
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const links = [
-    { id: "home", label: "Inicio" },
+    { id: "home", label: "Início" },
     { id: "products", label: "Produtos" },
     { id: "offers", label: "Ofertas" },
     { id: "contact", label: "Contato" },

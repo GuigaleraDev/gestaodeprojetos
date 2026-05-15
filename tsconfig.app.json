@@ -21,9 +21,9 @@
     "noFallthroughCasesInSwitch": true,
 
     "baseUrl": ".",
-    "paths": {, "tsconfig.json", "tsconfig.app.json", "tsconfig.node.json"
+    "paths": {
       "@/*": ["src/*"]
     }
   },
-  "include": ["src", "vite.config.ts"]
+  "include": ["src"]
 }

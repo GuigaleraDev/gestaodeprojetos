@@ -40,14 +40,14 @@ export default function OffersPage({ onViewDetails, onNavigate }: OffersPageProp
               Ofertas <span className="text-blue-300">Especiais</span>
             </h1>
             <p className="text-blue-200/80 text-lg max-w-lg">
-              Aproveite os melhores descontos em produtos de tecnologia premium. Ate 30% de desconto!
+              Aproveite os melhores descontos em produtos de tecnologia premium. Até 30% de desconto!
             </p>
 
             {/* Badges */}
             <div className="flex flex-wrap gap-3 mt-6">
               {[
-                { icon: Zap, label: "Frete Gratis acima de R$299" },
-                { icon: Tag, label: "Ate 30% OFF" },
+                { icon: Zap, label: "Frete Grátis acima de R$299" },
+                { icon: Tag, label: "Até 30% OFF" },
                 { icon: Clock, label: "Oferta por tempo limitado" },
               ].map(({ icon: Icon, label }) => (
                 <div
@@ -84,7 +84,7 @@ export default function OffersPage({ onViewDetails, onNavigate }: OffersPageProp
             onClick={() => onNavigate("products")}
             className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 active:scale-95 text-white font-bold px-8 py-4 rounded-2xl transition-all duration-200 shadow-lg shadow-blue-600/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
           >
-            Ver Catalogo Completo
+            Ver Catálogo Completo
             <ArrowRight size={18} aria-hidden="true" />
           </button>
         </div>

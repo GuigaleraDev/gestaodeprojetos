@@ -8,10 +8,10 @@ export default function Footer() {
 
   const validate = () => {
     const newErrors: Record<string, string> = {};
-    if (!form.name.trim()) newErrors.name = "Nome e obrigatorio";
-    if (!form.email.trim()) newErrors.email = "Email e obrigatorio";
-    else if (!/\S+@\S+\.\S+/.test(form.email)) newErrors.email = "Email invalido";
-    if (!form.message.trim()) newErrors.message = "Mensagem e obrigatoria";
+    if (!form.name.trim()) newErrors.name = "Nome e obrigatório";
+    if (!form.email.trim()) newErrors.email = "Email e obrigatório";
+    else if (!/\S+@\S+\.\S+/.test(form.email)) newErrors.email = "Email inválido";
+    if (!form.message.trim()) newErrors.message = "Mensagem e obrigatória";
     return newErrors;
   };
 
@@ -36,7 +36,7 @@ export default function Footer() {
           <div>
             <h2 className="text-white font-bold text-3xl mb-3">Entre em Contato</h2>
             <p className="text-blue-300/80 mb-8 leading-relaxed">
-              Tem alguma duvida ou precisa de suporte? Nossa equipe esta pronta para ajudar voce.
+              Tem alguma dúvida ou precisa de suporte? Nossa equipe está pronta para ajudar você.
             </p>
 
             <div className="space-y-5">
@@ -81,7 +81,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <h3 className="text-white font-bold text-xl mb-2">Mensagem Enviada!</h3>
-                  <p className="text-blue-300">Entraremos em contato em ate 24 horas.</p>
+                  <p className="text-blue-300">Entraremos em contato em até 24 horas.</p>
                 </div>
                 <button
                   onClick={() => setSubmitted(false)}
@@ -178,13 +178,13 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-6">
             <a href="#" className="text-blue-400 hover:text-blue-300 text-sm transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded">
-              Politica de Privacidade
+              Política de Privacidade
             </a>
             <a href="#" className="text-blue-400 hover:text-blue-300 text-sm transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded">
               Termos de Uso
             </a>
             <a href="#" className="text-blue-400 hover:text-blue-300 text-sm transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400 rounded">
-              Trocas e Devolucoes
+              Trocas e Devoluções
             </a>
           </div>
         </div>

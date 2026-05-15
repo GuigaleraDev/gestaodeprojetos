@@ -113,8 +113,8 @@ export default function ProductDetail({ product, onBack, onNavigate }: ProductDe
 
             {/* Features */}
             <div className="mb-8">
-              <h2 className="text-white font-bold mb-4">Caracteristicas</h2>
-              <ul className="space-y-2" aria-label="Caracteristicas do produto">
+              <h2 className="text-white font-bold mb-4">Características</h2>
+              <ul className="space-y-2" aria-label="Características do produto">
                 {product.features.map((feature, i) => (
                   <li key={i} className="flex items-center gap-3 text-blue-200">
                     <div className="w-5 h-5 bg-blue-600/30 border border-blue-600/50 rounded-full flex items-center justify-center flex-shrink-0">
@@ -145,7 +145,7 @@ export default function ProductDetail({ product, onBack, onNavigate }: ProductDe
               ) : (
                 <>
                   <ShoppingCart size={22} aria-hidden="true" />
-                  {product.inStock ? "Adicionar ao Carrinho" : "Produto Indisponivel"}
+                  {product.inStock ? "Adicionar ao Carrinho" : "Produto Indisponível"}
                 </>
               )}
             </button>

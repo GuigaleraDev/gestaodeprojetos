@@ -110,9 +110,9 @@ export default function ProductsPage({ onViewDetails, onNavigate, searchQuery, i
                 className="bg-blue-800/40 border border-blue-700/40 text-white text-sm rounded-lg px-3 py-1.5 outline-none focus:border-blue-500 focus-visible:ring-2 focus-visible:ring-blue-400"
               >
                 <option value="featured">Destaques</option>
-                <option value="price-asc">Menor Preco</option>
-                <option value="price-desc">Maior Preco</option>
-                <option value="rating">Melhor Avaliacao</option>
+                <option value="price-asc">Menor Preço</option>
+                <option value="price-desc">Maior Preço</option>
+                <option value="rating">Melhor Avaliação</option>
                 <option value="discount">Maior Desconto</option>
               </select>
             </div>
